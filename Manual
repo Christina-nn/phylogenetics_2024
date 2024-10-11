@@ -1,0 +1,4 @@
+
+
+mafft --auto input_sequences.fasta > aligned_sequences.fasta
+FastTree -nt -boot 1000 aligned.fasta > tree.nwk
