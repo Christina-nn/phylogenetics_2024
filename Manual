@@ -2,3 +2,7 @@
 
 mafft --auto input_sequences.fasta > aligned_sequences.fasta
 FastTree -nt -boot 1000 aligned.fasta > tree.nwk
+
+There are two options to root and visualize a tree from .nwk file: 
+  - the first and the easiest one is using MEGA X  
+  - the second is using 'rooting_and_visual.py' script, which is better to launch in google colab
